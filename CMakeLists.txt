@@ -129,8 +129,8 @@ find_package(Python)
 set(CMAKE_SHARED_LIBRARY_LINK_Fortran_FLAGS "")
 set(CMAKE_SKIP_RPATH ON)
 
-set (dest "PFUNIT-${PFUNIT_VERSION_MAJOR}.${PFUNIT_VERSION_MINOR}")
-
+#set (dest "PFUNIT-${PFUNIT_VERSION_MAJOR}.${PFUNIT_VERSION_MINOR}")
+set(dest "./")
 # Code to silence warnings from RANLIB on OSX
 # From https://stackoverflow.com/questions/4929255/building-static-libraries-on-mac-using-cmake-and-gcc
 if (APPLE)
